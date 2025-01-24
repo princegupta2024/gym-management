@@ -1,0 +1,256 @@
+#section1-blog {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec1-blog-de-con-box1 {
+    width: 100%;
+}
+
+.sec1-blog-de-content {
+    width: 65%;
+}
+
+.sec1-blog-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-box-blog {
+    width: 100%;
+    height: 470px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#blog-details-img {
+    width: 100%;
+    height: 470px;
+    border-radius: 20px 20px 0px 0px;
+    transition: 0.5s;
+}
+
+#blog-details-img:hover {
+    transform: scale(1.1);
+}
+
+.bottom-content-details {
+    padding: 30px 30px;
+}
+
+.double-blog-de {
+    display: flex;
+    align-items: center;
+}
+
+.mg-left {
+    margin-left: 20px;
+}
+
+.icon-blog-comman {
+    margin-right: 5px;
+}
+
+.link-h1-head {
+    color: black;
+    font-weight: 800;
+    font-size: 2.1rem;
+    line-height: 70px;
+}
+
+.link-h1-head:hover {
+    color: rgba(255, 166, 0, 0.858);
+}
+
+.para-blog-list {
+    color: #777;
+}
+
+.bottom-content-details {
+    width: 100%;
+    background-color: #F6F6F7;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.circle-blog-arrow {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+    width: 130px;
+}
+
+.circle-blog-arrow:hover .circle {
+    background-color: #ffae25;
+}
+
+.span-i {
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+.circle-blog-arrow:hover .span-i {
+    color: #ffae25;
+}
+
+.padding-top-blog {
+    padding-top: 50px;
+}
+
+.sec2-blog-de-content {
+    width: calc(35% - 25px);
+    padding-left: 25px;
+}
+
+.blog-search {
+    background-color: #F6F6F7;
+    padding: 40px;  
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+}
+
+.blog-box1-search {
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+}
+
+#input-sea-blog {
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    /* margin-left: 10px; */
+}
+
+.search-box-click {
+    /* padding-left: 20px; */
+    background-color: #d33f3f;
+    height: 50px;
+    /* padding-right: 20px; */
+    width: 20%;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+.blog2-content2{
+    padding: 30px;
+    background-color: #F6F6F7;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.blog2-content-heading{
+    margin-bottom: 20px;
+}
+.menu-box1-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main-box-img{
+    margin-right: 20px;
+}
+.main-box-img img{
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.main-box-img img:hover{
+    opacity: 0.8;
+}
+.font-h4{
+    line-height: 20px;
+}
+.h4-a{
+    color: black;
+}
+.h4-a:hover{
+color: #ffae25;
+}
+.span-details-ser{
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+.span-details-ser:hover{
+    color: #ffae25;
+}
+#sec-de-icon{
+    margin-right: 20px;
+}
+.img-small-img{
+    border-radius: 10px;
+}
+.img-small-img:hover{
+    opacity: 0.8;
+}
+.margin-lf{
+   margin-left: 5px; 
+}
+.para-p{
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: 0.5s;
+}
+.para-p:hover{
+    background-color: #ffae25;
+    color: #fff;
+}
+.blog-small-container{
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+gap: 10px;
+}
+@media(max-width:1200px){
+    .sec1-blog-de-content {
+        width: 100%;
+    }
+    .sec2-blog-de-content {
+        width: 70%;
+        padding-left: 0px;
+    }
+    .sec2-blog-de-content{
+        margin-top: 30px;
+    }
+}
+@media(max-width:992px){
+    .sec1-blog-de-content {
+        width: 100%;
+    }
+    .sec2-blog-de-content {
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+}
+@media(max-width:400px){
+    .span-blog1{
+        font-size: 0.9rem;
+    }
+    .mg-left {
+        margin-left: 15px;
+    }
+    .link-h1-head{
+        line-height: 40px;
+        font-size: 1.7rem;
+    }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="join-know-box">
+                <div class="left-content-box"></div>
+                <div class="join-content">
+                    <div class="input-box">
+                        <h2 class="join-para">join now</h2>
+                        <div class="mail-box">
+                            <input type="text" placeholder="enter your gmail" id="mail">
+                        </div>
+                        <div class="password-box">
+                            <input type="text" placeholder="password" id="mail">
+                        </div>
+                        <div class="password-box">
+                            <button id="smt">login</button>
+                        </div>
+                    </div>
+                    <div class="input-box2"></div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: "Mukta", sans-serif;
+    }
+
+    body {
+        background-color: #191919;
+    }
+
+    .container {
+        padding-inline: 10%;
+        width: 80%;
+    }
+
+    .join-know-box {
+        /* background-image: url(image-gym/join-page-removebg-preview.png);
+        background-size: 400px;
+        height: 700px;
+        background-repeat: no-repeat; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .join-content {
+        /* margin-left: 500px; */
+        display: flex;
+        align-items: center;
+        /* background-color: #8368ff; */
+        justify-content: center;
+        border-radius: 20px;
+        width: 60%;
+        height: 600px;
+
+
+
+    }
+
+    .input-box:hover {
+        background-image: url(image-gym/input-img.jpg);
+        transition: 1s;
+    }
+
+    .input-box:hover~.input-box2 {
+        transform: translateX(-10px);
+        background-image: url(image-gym/input-img.jpg3.jpg);
+    }
+
+    .join-para {
+        font-size: 2.5rem;
+        color: white;
+        text-shadow: 2px 2px 2px blue;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    .left-content-box {
+        width: 40%;
+        height: 600px;
+        background-image: url(image-gym/join-page-removebg-preview.png);
+        background-size: 400px;
+        height: 690px;
+        background-repeat: no-repeat;
+    }
+
+    .input-box {
+        /* width: 60%; */
+        height: 600px;
+        background-color: #8368ff;
+        border-radius: 20px;
+        padding-inline: 25px;
+        border: 2px solid white;
+    }
+
+    .input-box2 {
+        /* background-color: orange; */
+        background-image: url(image-gym/input-img.jpg4.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 50%;
+        border-radius: 20px;
+        transform: translateX(-100px);
+        z-index: -100;
+        margin-top: 50px;
+        transition: ease-out 1s;
+        border: 2px solid white;
+    }
+
+    .mail-box {
+        width: 350px;
+        height: 60px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        display: grid;
+        place-items: center;
+        border-radius: 50px;
+    }
+
+    #mail {
+        width: 80%;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+
+    .password-box {
+        width: 350px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #fff;
+        display: grid;
+        place-items: center;
+        margin-bottom: 30px;
+    }
+
+    #smt {
+        width: 350px;
+        height: 60px;
+        border-radius: 50px;
+        border: none;
+        font-size: 2rem;
+        font-weight: 800;
+        color: #fff;
+        background-color: #8368ff;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    #smt:hover {
+
+        background-color: orange;
+        color: #fff;
+    }
+
+    @media(max-width:1490px) {
+        .left-content-box {
+            width: 100%;
+        }
+
+        .join-content {
+            width: 100%;
+        }
+
+        .input-box2 {
+            display: none;
+        }
+
+    }
+    @media(max-width:992px){
+        .join-know-box{
+            margin-top: 50px;
+        }
+        .left-content-box{
+            display: none;
+        }
+    }
+    @media(max-width:400px) {
+        .input-box{
+            width: 300px;
+        }
+        .mail-box {
+            width: 300px;
+        }
+        .password-box {
+            width: 300px;
+        }
+        #smt {
+            width: 300px;
+        }
+    }
+</style>
